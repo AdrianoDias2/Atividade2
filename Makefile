@@ -8,7 +8,7 @@ CFLAGS = -Wall -Wextra -std=c99
 TARGET = main
 
 # Lista de arquivos fonte
-SRCS = main.c
+SRCS = main.c ListaSequencial.c
 
 # Verificação do sistema operacional
 ifeq ($(OS),Windows_NT)
